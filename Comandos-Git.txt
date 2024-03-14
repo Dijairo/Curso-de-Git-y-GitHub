@@ -1,0 +1,64 @@
+Comandos basicos
+
+cd - cambiar directorio
+mkdir - crear carpeta
+ls - ver contenido dentro del directorio
+.. - para volver a 1 nivel o carpeta anterior
+rmdir - borrar directorio que este dentro de la carpeta en la que se mantiene
+Clean (para limpiar tu ventana de git)
+
+configuracion de correo electronico i usuario
+
+git config -- Global user.name
+git config -- Global user.email
+
+Uso de Git!!
+
+git init - para iniciar repositorio
+*git config --global init.defaultBranch nombre (para cambiar nombre de la raiz)
+
+git status (para verificar el estado del repositorio)
+git add . (para agregar los datos al area de preparacion y empezar a rastrear)
+git rm --cached elarchivoquequieressacar (para retirar los datos del aerea de preparacion)
+
+Commit´s!!
+
+git commit (para agregar comentario desde vscode)
+git commit -m "para agregar un comentario al commit de archivo"
+git log (para verificar el historial de commit realizados)
+
+git commit --amend (cambiar comentario del ultimo commit guardado)
+git reset --soft HEAD~1 (reinicia el historial sin modificacion los archivos de trabajo del ultimo commit)
+
+Ramas!!
+
+git branch (para ver tus ramas)
+git branchescribeselnombredelarama (para crear una rama nueva)
+git checkout nombredelarama (para ir a la rama que quieras estar)
+git checkout -b nombrederama (creas y te quedas en la rama creada)
+git branch -m nuevonombre (para cambiar nombre a una rama ya creada estando en la rama)
+git branch -m nombredelaramaquequierescambiar nombrenuevo (para cambiarnombre a rama sin estar en esta)
+git branch -d nombredelaramaquequieresborrar (para borrar ramas locales)
+
+git log --oneline (para ver todos mis commit abreviados)
+git log - p (para ver los cambios en los commits)
+
+Fusionar ramas!
+// para poder fusionar es importante que estes en la rama donde quieres que quede combinada //
+
+git merge ramaquequieresfusionar (para fusionar ramas)
+
+
+
+Solucionar pconflictos al fusionar ramas!!
+
+en vscode te saldran 5 opcione:
+1 aceptar el cambio actual
+2 aceptar el cambio entrante
+3 aceptar ambos cambios
+4 comparar ambos cambios
+5 resolver en el editor de combinacion
+
+
+
+
